@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart | TechZone Electronics</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i>
+            TechZone<span>Electronics</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="Electronic.html">Home</a></li>
+
+            <li><a href="about.html">About Us</a></li>
+
+            <li><a href="products.html">Products</a></li>
+
+            <li>
+                <a href="cart.html" class="active">
+                    Shopping Cart
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cartCount">0</span>
+                </a>
+            </li>
+
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+
+    <!-- Cart Banner -->
+
+    <section class="cart-banner">
+
+        <h1>My Shopping Cart</h1>
+
+
+    </section>
+
+
+    <!-- Shopping Cart Section -->
+
+    <section class="cart-section">
+
+        <div class="cart-container">
+
+
+            <!-- Cart Products -->
+
+            <div class="cart-products">
+
+                <h2>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Your Selected Products
+                </h2>
+
+                <div id="cartItems">
+
+                    <!-- JavaScript displays products here -->
+
+                </div>
+
+            </div>
+
+
+            <!-- Order Summary -->
+
+            <div class="cart-summary">
+
+                <h2>Order Summary</h2>
+
+                <div class="summary-row">
+
+                    <span>Total Items</span>
+
+                    <span id="totalItems">0</span>
+
+                </div>
+
+
+                <div class="summary-row">
+
+                    <span>Subtotal</span>
+
+                    <span id="subtotal">Rs. 0</span>
+
+                </div>
+
+
+                <div class="summary-row total-row">
+
+                    <span>Total Amount</span>
+
+                    <span id="totalPrice">Rs. 0</span>
+
+                </div>
+
+
+                <button class="checkout-btn" onclick="checkout()">
+
+                    Proceed to Checkout
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+                <a href="products.html" class="continue-shopping">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Continue Shopping
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>TechZone Electronics</h3>
+
+        <p>Discover the Latest Technology with Us.</p>
+
+        <p>&copy; 2026 TechZone Electronics. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="apps.js"></script>
+
+</body>
+
+</html>

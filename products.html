@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | TechZone Electronics</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i>
+            TechZone<span>Electronics</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="Electronic.html">Home</a></li>
+
+            <li><a href="about.html">About Us</a></li>
+
+            <li><a href="products.html" class="active">Products</a></li>
+
+            <li>
+                <a href="cart.html">
+                    Shopping Cart
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cartCount">0</span>
+                </a>
+            </li>
+
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+
+        <div class="menu-icon" id="menuIcon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </nav>
+
+
+    <!-- Products Banner -->
+
+    <section class="products-banner">
+
+        <div class="products-banner-content">
+
+            <h1>Explore Our <span>Products</span></h1>
+
+            <p>
+                Discover the latest electronics and upgrade your
+                technology with TechZone Electronics.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products Section -->
+
+    <section class="products-section">
+
+        <div class="section-heading">
+
+            <h2>Our Products</h2>
+
+            <p>Find the perfect technology for your everyday needs.</p>
+
+        </div>
+
+
+        <!-- Category Buttons -->
+
+        <div class="category-buttons">
+
+            <button class="category-btn active" data-category="all">
+                All Products
+            </button>
+
+            <button class="category-btn" data-category="smartphones">
+                Smartphones
+            </button>
+
+            <button class="category-btn" data-category="laptops">
+                Laptops
+            </button>
+
+            <button class="category-btn" data-category="headphones">
+                Headphones
+            </button>
+
+            <button class="category-btn" data-category="smartwatches">
+                Smartwatches
+            </button>
+
+            <button class="category-btn" data-category="accessories">
+                Accessories
+            </button>
+
+        </div>
+
+
+        <!-- Product Container -->
+
+        <div class="products-grid">
+
+
+            <!-- SMARTPHONES -->
+
+            <div class="store-product" data-category="smartphones">
+
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600" alt="Smartphone">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Smartphones</span>
+
+                    <h3>Samsung Galaxy S Series</h3>
+
+                    <p>Powerful smartphone with an advanced camera and modern design.</p>
+
+                    <h4>Rs. 185,000</h4>
+
+                    <button class="add-cart-btn" data-name="Samsung Galaxy S Series" data-price="185000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="store-product" data-category="smartphones">
+
+                <img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=600" alt="iPhone">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Smartphones</span>
+
+                    <h3>Apple iPhone</h3>
+
+                    <p>Enjoy smooth performance and premium smartphone technology.</p>
+
+                    <h4>Rs. 250,000</h4>
+
+                    <button class="add-cart-btn" data-name="Apple iPhone" data-price="250000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- LAPTOPS -->
+
+            <div class="store-product" data-category="laptops">
+
+                <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600" alt="Laptop">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Laptops</span>
+
+                    <h3>HP Pavilion Laptop</h3>
+
+                    <p>Reliable laptop for office work, education and entertainment.</p>
+
+                    <h4>Rs. 220,000</h4>
+
+                    <button class="add-cart-btn" data-name="HP Pavilion Laptop" data-price="220000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="store-product" data-category="laptops">
+
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600" alt="MacBook">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Laptops</span>
+
+                    <h3>Apple MacBook</h3>
+
+                    <p>Premium laptop with excellent performance and elegant design.</p>
+
+                    <h4>Rs. 350,000</h4>
+
+                    <button class="add-cart-btn" data-name="Apple MacBook" data-price="350000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- HEADPHONES -->
+
+            <div class="store-product" data-category="headphones">
+
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600" alt="Wireless Headphones">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Headphones</span>
+
+                    <h3>Wireless Headphones</h3>
+
+                    <p>Enjoy high-quality sound with comfortable wireless listening.</p>
+
+                    <h4>Rs. 15,000</h4>
+
+                    <button class="add-cart-btn" data-name="Wireless Headphones" data-price="15000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="store-product" data-category="headphones">
+
+                <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600" alt="Headphones">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Headphones</span>
+
+                    <h3>Premium Headphones</h3>
+
+                    <p>Experience clear audio and immersive listening quality.</p>
+
+                    <h4>Rs. 22,500</h4>
+
+                    <button class="add-cart-btn" data-name="Premium Headphones" data-price="22500">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- SMARTWATCHES -->
+
+            <div class="store-product" data-category="smartwatches">
+
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600" alt="Smartwatch">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Smartwatches</span>
+
+                    <h3>Modern Smartwatch</h3>
+
+                    <p>Track your activities and stay connected throughout the day.</p>
+
+                    <h4>Rs. 22,500</h4>
+
+                    <button class="add-cart-btn" data-name="Modern Smartwatch" data-price="22500">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="store-product" data-category="smartwatches">
+
+                <img src="https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=600" alt="Digital Watch">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Smartwatches</span>
+
+                    <h3>Digital Smartwatch</h3>
+
+                    <p>Smart features with a stylish design for everyday use.</p>
+
+                    <h4>Rs. 18,000</h4>
+
+                    <button class="add-cart-btn" data-name="Digital Smartwatch" data-price="18000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- ACCESSORIES -->
+
+            <div class="store-product" data-category="accessories">
+
+                <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=600" alt="Computer Mouse">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Accessories</span>
+
+                    <h3>Wireless Mouse</h3>
+
+                    <p>Comfortable and responsive mouse for everyday computer use.</p>
+
+                    <h4>Rs. 4,500</h4>
+
+                    <button class="add-cart-btn" data-name="Wireless Mouse" data-price="4500">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="store-product" data-category="accessories">
+
+                <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600" alt="Keyboard">
+
+                <div class="store-product-info">
+
+                    <span class="product-category">Accessories</span>
+
+                    <h3>Mechanical Keyboard</h3>
+
+                    <p>Enjoy comfortable typing with a modern mechanical keyboard.</p>
+
+                    <h4>Rs. 12,000</h4>
+
+                    <button class="add-cart-btn" data-name="Mechanical Keyboard" data-price="12000">
+
+                        <i class="fa-solid fa-cart-plus"></i> Add to Cart
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div id="successMessage" class="success-message">
+        <i class="fas fa-check-circle"></i> Product added successfully!
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>TechZone Electronics</h3>
+
+        <p>Discover the Latest Technology with Us.</p>
+
+        <p>&copy; 2026 TechZone Electronics. All Rights Reserved.</p>
+
+    </footer>
+
+
+    <script src="apps.js"></script>
+
+</body>
+
+</html>
